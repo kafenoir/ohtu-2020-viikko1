@@ -146,7 +146,7 @@ public class VarastoTest {
     @Test
     public void tilavuusEiYlityJosLiikaaAlkusaldoa() {
         
-        Varasto yliSaldoVarasto = new Varasto(10, 11);
+       // Varasto yliSaldoVarasto = new Varasto(10, 11);
         
         assertEquals(10, yliSaldoVarasto.getSaldo(), vertailuTarkkuus);
     }
