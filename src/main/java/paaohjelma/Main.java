@@ -18,26 +18,5 @@ public class Main {
         System.out.println("Lisätään 50.7");
         mehua.lisaaVarastoon(50.7);
         System.out.println("Mehuvarasto: " + mehua);
-        
-        int summa = 0;
-        
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                summa++;
-            }
-        }
-        
-        if (summa < 5) 
-        {
-            summa++;
-            
-                        if (summa < 3) {
-                summa--;
-                
-                if (summa < 1) {
-                    summa++;
-                }
-            }
-        }
     }
 }
